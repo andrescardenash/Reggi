@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ibang.Reggi.Application\Ibang.Reggi.Application.csproj" />
+    <ProjectReference Include="..\Ibang.Reggi.Common\Ibang.Reggi.Common.csproj" />
+    <ProjectReference Include="..\Ibang.Reggi.Infraestructure\Ibang.Reggi.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>

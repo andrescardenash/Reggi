@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.Api", "Ibang.Reggi.Api\Ibang.Reggi.Api.csproj", "{39A50251-077B-4061-A1A3-BF403A3AEF09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{717336FF-AC50-445B-AC00-4F368D09215A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Distributed service", "1. Distributed service", "{C9BC059F-85E3-4403-8D99-3DC28B82D7AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{641CC588-9241-48EF-9ABF-14FFBD410A89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DataAccess", "3. DataAccess", "{7DAAD250-7EEB-40FD-9018-20866E86D0B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Cross-Cutting", "4. Cross-Cutting", "{A9A1A737-075E-47B5-9F0D-1E5A11F257D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.Application", "Ibang.Reggi.Application\Ibang.Reggi.Application.csproj", "{7C2E20D4-9B73-48A2-B678-B2242C91A335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.Application.Contract", "Ibang.Reggi.Application.Contract\Ibang.Reggi.Application.Contract.csproj", "{B0883F30-E0D6-43AA-9122-BB8C1FC8F00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.Infraestructure", "Ibang.Reggi.Infraestructure\Ibang.Reggi.Infraestructure.csproj", "{66A82B9C-1996-4CA4-AF52-D41457CF71CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.Domain", "Ibang.Reggi.Domain\Ibang.Reggi.Domain.csproj", "{0B484860-A546-47C3-9208-B601213F4867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.CrossCutting", "Ibang.Reggi.CrossCutting\Ibang.Reggi.CrossCutting.csproj", "{B306EAC5-DE6F-4656-9845-7E11C74FB2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibang.Reggi.Common", "Ibang.Reggi.Common\Ibang.Reggi.Common.csproj", "{69A563B4-EBE4-4CB9-8F55-0374D2171BC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A50251-077B-4061-A1A3-BF403A3AEF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A50251-077B-4061-A1A3-BF403A3AEF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A50251-077B-4061-A1A3-BF403A3AEF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A50251-077B-4061-A1A3-BF403A3AEF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2E20D4-9B73-48A2-B678-B2242C91A335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2E20D4-9B73-48A2-B678-B2242C91A335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2E20D4-9B73-48A2-B678-B2242C91A335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2E20D4-9B73-48A2-B678-B2242C91A335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0883F30-E0D6-43AA-9122-BB8C1FC8F00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0883F30-E0D6-43AA-9122-BB8C1FC8F00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0883F30-E0D6-43AA-9122-BB8C1FC8F00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0883F30-E0D6-43AA-9122-BB8C1FC8F00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A82B9C-1996-4CA4-AF52-D41457CF71CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A82B9C-1996-4CA4-AF52-D41457CF71CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A82B9C-1996-4CA4-AF52-D41457CF71CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A82B9C-1996-4CA4-AF52-D41457CF71CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B484860-A546-47C3-9208-B601213F4867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B484860-A546-47C3-9208-B601213F4867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B484860-A546-47C3-9208-B601213F4867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B484860-A546-47C3-9208-B601213F4867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B306EAC5-DE6F-4656-9845-7E11C74FB2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B306EAC5-DE6F-4656-9845-7E11C74FB2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B306EAC5-DE6F-4656-9845-7E11C74FB2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B306EAC5-DE6F-4656-9845-7E11C74FB2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A563B4-EBE4-4CB9-8F55-0374D2171BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A563B4-EBE4-4CB9-8F55-0374D2171BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A563B4-EBE4-4CB9-8F55-0374D2171BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A563B4-EBE4-4CB9-8F55-0374D2171BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39A50251-077B-4061-A1A3-BF403A3AEF09} = {C9BC059F-85E3-4403-8D99-3DC28B82D7AF}
+		{C9BC059F-85E3-4403-8D99-3DC28B82D7AF} = {717336FF-AC50-445B-AC00-4F368D09215A}
+		{641CC588-9241-48EF-9ABF-14FFBD410A89} = {717336FF-AC50-445B-AC00-4F368D09215A}
+		{7DAAD250-7EEB-40FD-9018-20866E86D0B1} = {717336FF-AC50-445B-AC00-4F368D09215A}
+		{A9A1A737-075E-47B5-9F0D-1E5A11F257D3} = {717336FF-AC50-445B-AC00-4F368D09215A}
+		{7C2E20D4-9B73-48A2-B678-B2242C91A335} = {641CC588-9241-48EF-9ABF-14FFBD410A89}
+		{B0883F30-E0D6-43AA-9122-BB8C1FC8F00C} = {641CC588-9241-48EF-9ABF-14FFBD410A89}
+		{66A82B9C-1996-4CA4-AF52-D41457CF71CD} = {7DAAD250-7EEB-40FD-9018-20866E86D0B1}
+		{0B484860-A546-47C3-9208-B601213F4867} = {7DAAD250-7EEB-40FD-9018-20866E86D0B1}
+		{B306EAC5-DE6F-4656-9845-7E11C74FB2C9} = {A9A1A737-075E-47B5-9F0D-1E5A11F257D3}
+		{69A563B4-EBE4-4CB9-8F55-0374D2171BC4} = {A9A1A737-075E-47B5-9F0D-1E5A11F257D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66393CDE-6F50-469B-B1DF-1A64B6D366DE}
+	EndGlobalSection
+EndGlobal

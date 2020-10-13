@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ibang.Reggi.Application.Contract</name>
+    </assembly>
+    <members>
+        <member name="T:Ibang.Reggi.Application.Contract.Dto.ActivityDto">
+            <summary>
+            Actvidades
+            </summary>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityDto.Description">
+            <summary>
+            Descripción de la actividad
+            </summary>
+            <example>Programar web api IBang</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityDto.UserId">
+            <summary>
+            Identificador unico del usuario.
+            </summary>
+            <example>d06b9364-eb22-46fe-c58b-08d86f2885bc</example>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.Dto.ActivityDtoResponse">
+            <summary>
+            Parametros de respuesta sobre las actividaddes de Reggi para un usuario.
+            </summary>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityDtoResponse.Description">
+            <summary>
+            Descripción de la actividad.
+            </summary>
+            <example>Programar web api IBang</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityDtoResponse.IdActivity">
+            <summary>
+             Identificador unico de la actividad.
+            </summary>
+            <example>d06b9364-eb22-46fe-c58b-08d86f2885bc</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityDtoResponse.ActivityHours">
+            <summary>
+            Lista de fechas con horas aplicadas a una actividad dentro del sistema Reggi.
+            </summary>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.Dto.ActivityHourDto">
+            <summary>
+            Parametros para la generación de Horas por actividad.
+            </summary>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityHourDto.DateHour">
+            <summary>
+            Fecha en que se ejecuto la actividad
+            </summary>
+            <example>2020-10-12T00:00:00</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityHourDto.Hour">
+            <summary>
+            Horas aplicadas en la fecha en la cual se ejecuto la actividad - unidad de medida horas.
+            </summary>
+            <example>2</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityHourDto.IdActivity">
+            <summary>
+             Identificador unico de la actividad.
+            </summary>
+            <example>d06b9364-eb22-46fe-c58b-08d86f2885bc</example>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.Dto.ActivityHourDtoResponse">
+            <summary>
+            Parametros de respuesta para las horas relacionadas a una actividad.
+            </summary>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityHourDtoResponse.DateHour">
+            <summary>
+            Fecha en que se ejecuto la actividad
+            </summary>
+            <example>2020-10-12T00:00:00</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityHourDtoResponse.Hour">
+            <summary>
+            Horas aplicadas en la fecha en la cual se ejecuto la actividad - unidad de medida horas.
+            </summary>
+            <example>2</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.ActivityHourDtoResponse.IdActivityHour">
+            <summary>
+            Identificador unico de la fehca y horas asignadas a una actividad.
+            </summary>
+            <example>d06b9364-eb22-46fe-c58b-08d86f2885bc</example>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.Dto.TokenDto">
+            <summary>
+            Parametros de autorización con Reggi.
+            </summary>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.TokenDto.Token">
+            <summary>
+            Token para el consumo de recursos dentro de Reggi.
+            </summary>
+            <example>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Imthcm</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.TokenDto.Expiration">
+            <summary>
+            Fecha de expiración del token
+            </summary>
+            <example>2021-10-13T04:31:37.2733508Z</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.TokenDto.UserId">
+            <summary>
+            Identrificador unico del usuario.
+            </summary>
+            <example>5aa4cc08-96c6-4ebb-0e10-08d86f3e9b7d</example>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.Dto.UserLoginDto">
+            <summary>
+            Parametros login usuario.
+            </summary>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.UserLoginDto.Email">
+            <summary>
+            Correo electrónico del usuario.
+            </summary>
+            <example>mat.car@ib.co</example>
+        </member>
+        <member name="P:Ibang.Reggi.Application.Contract.Dto.UserLoginDto.Password">
+            <summary>
+            Contraseña del usuario.
+            </summary>
+            <example>SeFeliz</example>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.IService.IActivityService">
+            <summary>
+            Servicio de actividades con Reggi.
+            </summary>
+        </member>
+        <member name="M:Ibang.Reggi.Application.Contract.IService.IActivityService.CreateActivity(Ibang.Reggi.Application.Contract.Dto.ActivityDto)">
+            <summary>
+            Crea una nueva actividad en el sistema Reggi.
+            </summary>
+            <param name="activity">Parametros para la generación de una nueva activida-</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ibang.Reggi.Application.Contract.IService.IActivityService.CreateActivityHour(Ibang.Reggi.Application.Contract.Dto.ActivityHourDto)">
+            <summary>
+            Crea una cantidad de horas asignadas a una actividad por fecha.
+            </summary>
+            <param name="activityHour">Parametros para la generación de fechas y horas por actividad.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ibang.Reggi.Application.Contract.IService.IActivityService.GetActivitiesByUser(System.String)">
+            <summary>
+            Obtiene todas las actividades creacdas en el sistema Reggi para un usuario especifico.
+            </summary>
+            <param name="userId">Identificador del usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Ibang.Reggi.Application.Contract.IService.ILoginService">
+            <summary>
+            Servicio de login con Reggi.
+            </summary>
+        </member>
+        <member name="M:Ibang.Reggi.Application.Contract.IService.ILoginService.CreateUserLogin(Ibang.Reggi.Application.Contract.Dto.UserLoginDto)">
+            <summary>
+            Crea un usuario en el sistema Reggi.
+            </summary>
+            <param name="userLogin">parametros para la generación de un nuevo usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ibang.Reggi.Application.Contract.IService.ILoginService.ValidatePassword(Ibang.Reggi.Application.Contract.Dto.UserLoginDto)">
+            <summary>
+            Valida e inicia sesión con un usuario en el sistema Reggi.
+            </summary>
+            <param name="userLogin">parametros para el inicio de sesión de un usuario.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

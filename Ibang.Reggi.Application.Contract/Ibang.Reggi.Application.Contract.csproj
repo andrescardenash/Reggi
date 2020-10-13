@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Ibang.Reggi.Application.Contract\Ibang.Reggi.Application.Contract.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>..\Ibang.Reggi.Application.Contract\Ibang.Reggi.Application.Contract.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ibang.Reggi.Common\Ibang.Reggi.Common.csproj" />
+    <ProjectReference Include="..\Ibang.Reggi.Domain\Ibang.Reggi.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Ibang.Reggi.Application.Contract.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
